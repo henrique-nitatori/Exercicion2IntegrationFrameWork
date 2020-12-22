@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Failed",
+        "testsRan": 1,
+        "passing": 0,
+        "failing": 1,
+        "skipped": 0,
+        "passRate": "0%",
+        "failRate": "100%",
+        "testStartTime": "Dec 22, 2020 2:07 PM",
+        "testExecutionTime": "118 ms",
+        "testTotalTime": "118 ms",
+        "commandTime": "5786 ms",
+        "hostname": "https://mindful-fox-nzaknp-dev-ed.my.salesforce.com",
+        "orgId": "00D4x00000312ujEAA",
+        "username": "henrique_nitatori@mindful-fox-nzaknp.com",
+        "testRunId": "7074x000005uoSu",
+        "userId": "0054x0000027d4KAAQ"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v50.0/tooling/sobjects/ApexTestResult/07M4x0000008oaAEAQ"
+            },
+            "Id": "07M4x0000008oaAEAQ",
+            "QueueItemId": "7094x000000YQvBAAW",
+            "StackTrace": "Class.FilterIntegrationProjects.filterProjectTypeAndStatus: line 15, column 1",
+            "Message": "System.SObjectException: SObject row was retrieved via SOQL without querying the requested field: Project__c.Type__c",
+            "AsyncApexJobId": "7074x000005uoSuAAI",
+            "MethodName": "givenProjectUpdateWhenUpdateTypeAndStatusWhenExpectedProjectObject",
+            "Outcome": "Fail",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v50.0/tooling/sobjects/ApexClass/01p4x000009f09mAAA"
+                },
+                "Id": "01p4x000009f09mAAA",
+                "Name": "ProjectRepositoryTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 118,
+            "FullName": "ProjectRepositoryTest.givenProjectUpdateWhenUpdateTypeAndStatusWhenExpectedProjectObject"
+        }
+    ]
+}

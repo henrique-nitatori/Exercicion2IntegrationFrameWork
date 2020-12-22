@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Failed",
+        "testsRan": 1,
+        "passing": 0,
+        "failing": 1,
+        "skipped": 0,
+        "passRate": "0%",
+        "failRate": "100%",
+        "testStartTime": "Dec 22, 2020 8:47 AM",
+        "testExecutionTime": "35 ms",
+        "testTotalTime": "35 ms",
+        "commandTime": "5219 ms",
+        "hostname": "https://mindful-fox-nzaknp-dev-ed.my.salesforce.com",
+        "orgId": "00D4x00000312ujEAA",
+        "username": "henrique_nitatori@mindful-fox-nzaknp.com",
+        "testRunId": "7074x000005uhGx",
+        "userId": "0054x0000027d4KAAQ"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v50.0/tooling/sobjects/ApexTestResult/07M4x0000008oHhEAI"
+            },
+            "Id": "07M4x0000008oHhEAI",
+            "QueueItemId": "7094x000000YQqxAAG",
+            "StackTrace": "Class.ProjectRepository.create: line 7, column 1\nClass.ProjectRepositoryTest.givenCreateWhenObjectProjectWhenExpectedListProjetc: line 12, column 1",
+            "Message": "System.DmlException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Campos obrigatórios ausentes: [ProjectName__c, Status__c, StartDate__c, EndDate__c, ExternalId__c]: [ProjectName__c, Status__c, StartDate__c, EndDate__c, ExternalId__c]",
+            "AsyncApexJobId": "7074x000005uhGxAAI",
+            "MethodName": "givenCreateWhenObjectProjectWhenExpectedListProjetc",
+            "Outcome": "Fail",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v50.0/tooling/sobjects/ApexClass/01p4x000009f09mAAA"
+                },
+                "Id": "01p4x000009f09mAAA",
+                "Name": "ProjectRepositoryTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 35,
+            "FullName": "ProjectRepositoryTest.givenCreateWhenObjectProjectWhenExpectedListProjetc"
+        }
+    ]
+}

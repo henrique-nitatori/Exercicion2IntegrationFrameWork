@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Failed",
+        "testsRan": 1,
+        "passing": 0,
+        "failing": 1,
+        "skipped": 0,
+        "passRate": "0%",
+        "failRate": "100%",
+        "testStartTime": "Dec 22, 2020 2:07 PM",
+        "testExecutionTime": "172 ms",
+        "testTotalTime": "172 ms",
+        "commandTime": "5449 ms",
+        "hostname": "https://mindful-fox-nzaknp-dev-ed.my.salesforce.com",
+        "orgId": "00D4x00000312ujEAA",
+        "username": "henrique_nitatori@mindful-fox-nzaknp.com",
+        "testRunId": "7074x000005uoqo",
+        "userId": "0054x0000027d4KAAQ"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v50.0/tooling/sobjects/ApexTestResult/07M4x0000008oa5EAA"
+            },
+            "Id": "07M4x0000008oa5EAA",
+            "QueueItemId": "7094x000000YQv6AAG",
+            "StackTrace": "Class.ProjectRepositoryTest.givenProjectUpdateWhenUpdateTypeAndStatusWhenExpectedProjectObject: line 37, column 1",
+            "Message": "System.AssertException: Assertion Failed: Expected: Invalid, Actual: Iniciado",
+            "AsyncApexJobId": "7074x000005uoqoAAA",
+            "MethodName": "givenProjectUpdateWhenUpdateTypeAndStatusWhenExpectedProjectObject",
+            "Outcome": "Fail",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v50.0/tooling/sobjects/ApexClass/01p4x000009f09mAAA"
+                },
+                "Id": "01p4x000009f09mAAA",
+                "Name": "ProjectRepositoryTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 172,
+            "FullName": "ProjectRepositoryTest.givenProjectUpdateWhenUpdateTypeAndStatusWhenExpectedProjectObject"
+        }
+    ]
+}

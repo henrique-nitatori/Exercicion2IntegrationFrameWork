@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Failed",
+        "testsRan": 1,
+        "passing": 0,
+        "failing": 1,
+        "skipped": 0,
+        "passRate": "0%",
+        "failRate": "100%",
+        "testStartTime": "Dec 22, 2020 1:42 PM",
+        "testExecutionTime": "231 ms",
+        "testTotalTime": "231 ms",
+        "commandTime": "5637 ms",
+        "hostname": "https://mindful-fox-nzaknp-dev-ed.my.salesforce.com",
+        "orgId": "00D4x00000312ujEAA",
+        "username": "henrique_nitatori@mindful-fox-nzaknp.com",
+        "testRunId": "7074x000005uoGy",
+        "userId": "0054x0000027d4KAAQ"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v50.0/tooling/sobjects/ApexTestResult/07M4x0000008oTTEAY"
+            },
+            "Id": "07M4x0000008oTTEAY",
+            "QueueItemId": "7094x000000YQtxAAG",
+            "StackTrace": "Class.ProjectRepository.projectUpdate: line 12, column 1\nClass.ProjectRepositoryTest.givenProjectUpdateWhenUpdateTypeAndStatusWhenExpectedProjectObject: line 35, column 1",
+            "Message": "System.DmlException: Update failed. First exception on row 0 with id a044x000002fYTVAA2; first error: CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY, Project: execution of BeforeUpdate\n\ncaused by: System.CalloutException: Callout from triggers are currently not supported.\n\nClass.PostProjectOutBoundService.postProject: line 23, column 1\nClass.PostProjectOutBoundService.sendProject: line 13, column 1\nClass.FilterIntegrationProjects.filterProjectTypeAndStatus: line 14, column 1\nClass.ProjectTH.beforeUpdate: line 21, column 1\nClass.TriggerHandler.run: line 48, column 1\nTrigger.Project: line 6, column 1: []",
+            "AsyncApexJobId": "7074x000005uoGyAAI",
+            "MethodName": "givenProjectUpdateWhenUpdateTypeAndStatusWhenExpectedProjectObject",
+            "Outcome": "Fail",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v50.0/tooling/sobjects/ApexClass/01p4x000009f09mAAA"
+                },
+                "Id": "01p4x000009f09mAAA",
+                "Name": "ProjectRepositoryTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 231,
+            "FullName": "ProjectRepositoryTest.givenProjectUpdateWhenUpdateTypeAndStatusWhenExpectedProjectObject"
+        }
+    ]
+}

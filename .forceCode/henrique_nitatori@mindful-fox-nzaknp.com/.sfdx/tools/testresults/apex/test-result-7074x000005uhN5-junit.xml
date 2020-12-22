@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2020-12-22T08:53:00-03:00" hostname="https://mindful-fox-nzaknp-dev-ed.my.salesforce.com" tests="1" failures="1"  errors="0"  time="0.01">
+        <properties>
+            <property name="outcome" value="Failed"/>
+            <property name="testsRan" value="1"/>
+            <property name="passing" value="0"/>
+            <property name="failing" value="1"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="0%"/>
+            <property name="failRate" value="100%"/>
+            <property name="testStartTime" value="Dec 22, 2020 8:53 AM"/>
+            <property name="testExecutionTime" value="0.01 s"/>
+            <property name="testTotalTime" value="0.01 s"/>
+            <property name="commandTime" value="5.61 s"/>
+            <property name="hostname" value="https://mindful-fox-nzaknp-dev-ed.my.salesforce.com"/>
+            <property name="orgId" value="00D4x00000312ujEAA"/>
+            <property name="username" value="henrique_nitatori@mindful-fox-nzaknp.com"/>
+            <property name="testRunId" value="7074x000005uhN5"/>
+            <property name="userId" value="0054x0000027d4KAAQ"/>
+        </properties>
+        <testcase name="givenProjectUpdateWhenObjectProjectWhenExpectedListProjetc" classname="ProjectRepositoryTest" time="0.01">
+            <failure message="System.StringException: Invalid id: 2424232"><![CDATA[Class.ProjectFixeFactory.newProject: line 12, column 1
+Class.ProjectRepositoryTest.givenProjectUpdateWhenObjectProjectWhenExpectedListProjetc: line 19, column 1]]></failure>
+        </testcase>
+    </testsuite>
+</testsuites>

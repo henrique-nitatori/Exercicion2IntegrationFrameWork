@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Failed",
+        "testsRan": 1,
+        "passing": 0,
+        "failing": 1,
+        "skipped": 0,
+        "passRate": "0%",
+        "failRate": "100%",
+        "testStartTime": "Dec 22, 2020 4:20 PM",
+        "testExecutionTime": "24 ms",
+        "testTotalTime": "24 ms",
+        "commandTime": "5334 ms",
+        "hostname": "https://mindful-fox-nzaknp-dev-ed.my.salesforce.com",
+        "orgId": "00D4x00000312ujEAA",
+        "username": "henrique_nitatori@mindful-fox-nzaknp.com",
+        "testRunId": "7074x000005usJz",
+        "userId": "0054x0000027d4KAAQ"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v50.0/tooling/sobjects/ApexTestResult/07M4x0000008olmEAA"
+            },
+            "Id": "07M4x0000008olmEAA",
+            "QueueItemId": "7094x000000YR0TAAW",
+            "StackTrace": "Class.ProjectFixeFactory.createProject: line 33, column 1\nClass.FilterIntegrationProjectsTest.givenFilterProjectTypeAndStatusWhenStatusIniciadoAndTypeEnterpriseThenReturnModifyObject: line 8, column 1",
+            "Message": "System.DmlException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Campos obrigatórios ausentes: [Type__c]: [Type__c]",
+            "AsyncApexJobId": "7074x000005usJzAAI",
+            "MethodName": "givenFilterProjectTypeAndStatusWhenStatusIniciadoAndTypeEnterpriseThenReturnModifyObject",
+            "Outcome": "Fail",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v50.0/tooling/sobjects/ApexClass/01p4x000009f1OQAAY"
+                },
+                "Id": "01p4x000009f1OQAAY",
+                "Name": "FilterIntegrationProjectsTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 24,
+            "FullName": "FilterIntegrationProjectsTest.givenFilterProjectTypeAndStatusWhenStatusIniciadoAndTypeEnterpriseThenReturnModifyObject"
+        }
+    ]
+}

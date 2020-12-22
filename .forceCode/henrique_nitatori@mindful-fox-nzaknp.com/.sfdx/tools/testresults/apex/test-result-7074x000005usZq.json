@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Passed",
+        "testsRan": 1,
+        "passing": 1,
+        "failing": 0,
+        "skipped": 0,
+        "passRate": "100%",
+        "failRate": "0%",
+        "testStartTime": "Dec 22, 2020 4:22 PM",
+        "testExecutionTime": "170 ms",
+        "testTotalTime": "170 ms",
+        "commandTime": "5318 ms",
+        "hostname": "https://mindful-fox-nzaknp-dev-ed.my.salesforce.com",
+        "orgId": "00D4x00000312ujEAA",
+        "username": "henrique_nitatori@mindful-fox-nzaknp.com",
+        "testRunId": "7074x000005usZq",
+        "userId": "0054x0000027d4KAAQ"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v50.0/tooling/sobjects/ApexTestResult/07M4x0000008om1EAA"
+            },
+            "Id": "07M4x0000008om1EAA",
+            "QueueItemId": "7094x000000YR0dAAG",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7074x000005usZqAAI",
+            "MethodName": "givenFilterProjectTypeAndStatusWhenStatusIniciadoAndTypeEnterpriseThenReturnModifyObject",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v50.0/tooling/sobjects/ApexClass/01p4x000009f1OQAAY"
+                },
+                "Id": "01p4x000009f1OQAAY",
+                "Name": "FilterIntegrationProjectsTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 170,
+            "FullName": "FilterIntegrationProjectsTest.givenFilterProjectTypeAndStatusWhenStatusIniciadoAndTypeEnterpriseThenReturnModifyObject"
+        }
+    ]
+}

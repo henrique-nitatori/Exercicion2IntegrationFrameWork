@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Failed",
+        "testsRan": 1,
+        "passing": 0,
+        "failing": 1,
+        "skipped": 0,
+        "passRate": "0%",
+        "failRate": "100%",
+        "testStartTime": "Dec 22, 2020 2:10 PM",
+        "testExecutionTime": "299 ms",
+        "testTotalTime": "299 ms",
+        "commandTime": "5630 ms",
+        "hostname": "https://mindful-fox-nzaknp-dev-ed.my.salesforce.com",
+        "orgId": "00D4x00000312ujEAA",
+        "username": "henrique_nitatori@mindful-fox-nzaknp.com",
+        "testRunId": "7074x000005up3G",
+        "userId": "0054x0000027d4KAAQ"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v50.0/tooling/sobjects/ApexTestResult/07M4x0000008oaFEAQ"
+            },
+            "Id": "07M4x0000008oaFEAQ",
+            "QueueItemId": "7094x000000YQvGAAW",
+            "StackTrace": "Class.RequestProjectTransformer.toRequestProject: line 10, column 1\nClass.PostProjectOutBoundService.postProject: line 20, column 1\nClass.PostProjectOutBoundService.sendProject: line 13, column 1\nClass.FilterIntegrationProjects.filterProjectTypeAndStatus: line 16, column 1",
+            "Message": "System.SObjectException: SObject row was retrieved via SOQL without querying the requested field: Project__c.Name",
+            "AsyncApexJobId": "7074x000005up3GAAQ",
+            "MethodName": "givenProjectUpdateWhenUpdateTypeAndStatusWhenExpectedProjectObject",
+            "Outcome": "Fail",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v50.0/tooling/sobjects/ApexClass/01p4x000009f09mAAA"
+                },
+                "Id": "01p4x000009f09mAAA",
+                "Name": "ProjectRepositoryTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 299,
+            "FullName": "ProjectRepositoryTest.givenProjectUpdateWhenUpdateTypeAndStatusWhenExpectedProjectObject"
+        }
+    ]
+}

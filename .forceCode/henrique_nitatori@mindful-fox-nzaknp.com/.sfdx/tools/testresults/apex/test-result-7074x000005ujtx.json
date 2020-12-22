@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Failed",
+        "testsRan": 1,
+        "passing": 0,
+        "failing": 1,
+        "skipped": 0,
+        "passRate": "0%",
+        "failRate": "100%",
+        "testStartTime": "Dec 22, 2020 11:05 AM",
+        "testExecutionTime": "53 ms",
+        "testTotalTime": "53 ms",
+        "commandTime": "8388 ms",
+        "hostname": "https://mindful-fox-nzaknp-dev-ed.my.salesforce.com",
+        "orgId": "00D4x00000312ujEAA",
+        "username": "henrique_nitatori@mindful-fox-nzaknp.com",
+        "testRunId": "7074x000005ujtx",
+        "userId": "0054x0000027d4KAAQ"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v50.0/tooling/sobjects/ApexTestResult/07M4x0000008oJJEAY"
+            },
+            "Id": "07M4x0000008oJJEAY",
+            "QueueItemId": "7094x000000YQs5AAG",
+            "StackTrace": null,
+            "Message": "Os métodos definidos como TestMethod não suportam callouts para serviços da Web",
+            "AsyncApexJobId": "7074x000005ujtxAAA",
+            "MethodName": "givenFilterProjectTypeAndStatusWhenStatusIniciadoAndTypeEnterpriseThenReturnModifyObject",
+            "Outcome": "Fail",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v50.0/tooling/sobjects/ApexClass/01p4x000009f1OQAAY"
+                },
+                "Id": "01p4x000009f1OQAAY",
+                "Name": "FilterIntegrationProjectsTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 53,
+            "FullName": "FilterIntegrationProjectsTest.givenFilterProjectTypeAndStatusWhenStatusIniciadoAndTypeEnterpriseThenReturnModifyObject"
+        }
+    ]
+}
