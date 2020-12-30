@@ -17,11 +17,7 @@ public with sharing class ProjectTH extends TriggerHandler{
     virtual 
     override 
     public void afterUpdate() {
-        if (! System.isFuture () &&! System.isBatch ()) {
-
-            FilterIntegrationProjects.filterProjectTypeAndStatus(oldProjects.keySet());
-
-        }  
+        new FilterProject().filterIntegrationProject(oldProjects.keySet());
     }
 
 }

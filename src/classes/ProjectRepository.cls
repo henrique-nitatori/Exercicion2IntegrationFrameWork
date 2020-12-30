@@ -19,4 +19,10 @@ public class ProjectRepository {
 
     }
 
+    public List<Project__c> findBydId(String id) {
+        return [ SELECT ProjectName__c, Id, Status__c, StartDate__c, EndDate__c, Budget__c, Type__c FROM Project__c
+                 WHERE Id = :id];
+
+    }
+
 }
